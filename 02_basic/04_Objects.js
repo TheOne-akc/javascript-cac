@@ -49,8 +49,18 @@ const Users= [
     }
 
 ]
-console.log(Users[0].Aim)
-console.log(Object.keys(tinderUser2));
-console.log(Object.values(tinderUser2));
-console.log(Object.entries(tinderUser2));
-console.log(tinderUser2.hasOwnProperty("age"));
+//console.log(Users[0].Aim)
+//console.log(Object.keys(tinderUser2));
+//console.log(Object.values(tinderUser2));
+//console.log(Object.entries(tinderUser2));
+//console.log(tinderUser2.hasOwnProperty("age"));
+
+///
+const course ={
+    coursename:"js in hinid",
+    fees: "999",
+    courseInstructor : "alok"
+}
+const {courseInstructor: inst}= course
+
+console.log(inst);
